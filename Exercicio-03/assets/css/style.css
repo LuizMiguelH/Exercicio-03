@@ -1,6 +1,105 @@
-.container .quadrado{
-    width: 100px;
-    height: 100px;
+.container{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha1, .linha2, .linha3{
+    display: flex;
+}
+
+.quadrado{
+    background-color: #d34d4d;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    position: relative;
+}
+
+.quadrado11{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid#000;
+    border-radius: 20px;
+    margin: 20px auto auto 20px
+}
+
+.quadrado12{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid#000;
+    border-radius: 20px;
+    margin: 20px auto auto auto; 
+}
+
+.quadrado13{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid#000;
+    border-radius: 20px;
+    margin: 20px 20px auto auto;
+}
+
+.quadrado21{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid#000;
+    border-radius: 20px;
+    margin: auto auto auto 20px;
+}
+
+.quadrado22{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid#000;
+    border-radius: 20px;
+    margin: auto auto auto auto;
+}
+
+.quadrado23{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid#000;
+    border-radius: 20px;
+    margin: auto 20px auto auto;
+}
+
+.quadrado31{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid#000;
+    border-radius: 20px;
+    margin: auto auto 20px 20px;
+}
+
+.quadrado32{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid#000;
+    border-radius: 20px;
+    margin: auto auto 20px auto;
+}
+
+.quadrado33{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid#000;
+    border-radius: 20px;
+    margin: auto 20px 20px auto;
 }
